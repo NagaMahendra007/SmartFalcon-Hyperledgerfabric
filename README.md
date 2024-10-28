@@ -5,8 +5,7 @@ The system should support creating assets, updating asset values, querying the w
 and retrieving asset transaction history. The assets represent accounts with specific attributes, 
 such as DEALERID, MSISDN, MPIN, BALANCE, STATUS, TRANSAMOUNT, TRANSTYPE, and REMARKS.
 The institution aims to ensure the security, transparency, and immutability of asset records, while also providing an efficient way to track and manage asset-related transactions and histories.
-And i added an DEALER attribute for identification purpose
-PROGRAMMING LANGUAGE : GO
+And i added an DEALER attribute for identification purpose (PROGRAMMING LANGUAGE : GO)
 INTRODUCTION: 
 Hyperledger Fabric is an open source enterprise permissioned distributed ledger technology(DLT) platform
 KEY CONCEPTS:
