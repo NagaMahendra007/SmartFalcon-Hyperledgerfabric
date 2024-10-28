@@ -1,3 +1,4 @@
 *fabric-samples/ filter=lfs diff=lfs merge=lfs -text
 *fabric-samples-/ filter=lfs diff=lfs merge=lfs -text
 *Pkg/pkg/ filter=lfs diff=lfs merge=lfs -text
+*Pkg/pkg filter=lfs diff=lfs merge=lfs -text
