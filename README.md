@@ -15,7 +15,7 @@ KEY CONCEPTS:
 LEVEL 1:( SetUp HyperledgerFabric Test Network )
      -->After understanding the bussiness behind the Hyperledger fabric,I started install the prerequisites and setting up the development environment
         like GO,JQ,DOCKER,GIT,SoftHSM etc
-     -->Next I  was cloned the fabric samples from repository hyperledger/fabric , CLI binary tools & APIs to support developing smart contracts(chaincode) in { GO ,JAVA,Node.js } 
+     -->Next I cloned the fabric samples from repository hyperledger/fabric , CLI binary tools & APIs to support developing smart contracts(chaincode) in { GO ,JAVA,Node.js } 
      USING FABRIC TEST NETWORK:
          -->Deploy a test network by using scripts that are provided in fabric-samples- repository
          -->network.sh script used to create channel between the organizations
