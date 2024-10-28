@@ -19,13 +19,15 @@ LEVEL 1:( SetUp HyperledgerFabric Test Network )
      USING FABRIC TEST NETWORK:
          -->Deploy a test network by using scripts that are provided in fabric-samples- repository
          -->network.sh script used to create channel between the organizations
-         --> deployCC subvcommand to install chaincodes
+     --> deployCC subvcommand to install chaincodes
 LEVEL 2:(Develop and test the smart contract for the above problem statement)
+  
    -->fabric-samples-/assert-transfer-basic/chaincode-go/chaincode/smartcontract.go
         Have the code for the Smartcontract which is an logic used on ledger to read and write by using valid transactions
    --> Next using the commands Installation of chaincode package,Aprrove of chaincode definition, Commiting the chaincode  to  the definition of chaincode
    --> Invoking the chaincode and Upgrading it and identifiying using the Sequence number incremented by 2  
-LEVEL 3:( DEvelop a rest api for invoking smart contract and deployed it into hyperledger fabric test network and creates a docker image for rest api)
+
+LEVEL 3:( Develop a rest api for invoking smart contract and deployed it into hyperledger fabric test network and creates a docker image for rest api)
      Fabric gateway  client APIs is a service which manages the following transaction steps:
      Evaluate a transaction proposal,Endorse a transaction proposal,Submit a transaction, wait for a commit status and recive chaincode events
     -->Run Fabric Application reference provides an way to Query and Updates the ledger
