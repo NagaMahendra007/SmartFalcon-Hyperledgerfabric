@@ -27,12 +27,12 @@ LEVEL 2:(Develop and test the smart contract for the above problem statement)
    --> Next using the commands Installation of chaincode package,Aprrove of chaincode definition, Commiting the chaincode  to  the definition of chaincode
    --> Invoking the chaincode and Upgrading it and identifiying using the Sequence number incremented by 2  
 
-LEVEL 3:( Develop a rest api for invoking smart contract and deployed it into hyperledger fabric test network and creates a docker image for rest api)
+LEVEL 3:( Develop a rest api for invoking smart contract and deployed it into hyperledger fabric test network and creates a docker image for rest api) 
      Fabric gateway  client APIs is a service which manages the following transaction steps:
      Evaluate a transaction proposal,Endorse a transaction proposal,Submit a transaction, wait for a commit status and recive chaincode events
     -->Run Fabric Application reference provides an way to Query and Updates the ledger
         1. Setting up a blockchain network
         2. Run the sample application to intercat with smart contracts
-    -->creates a gRPC connection
+    -->creates a gRPC connection in pkg using GO Language
     -->Query all assets, Create a new asset, Update an asset, Query the updated asset,Handle Transaction errors
       
